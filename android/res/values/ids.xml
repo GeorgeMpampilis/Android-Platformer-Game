@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+  <string name="app_id">429761323808</string>
+  <string name="package_name">com.quirkiee.mygame</string>
+  <string name="achievement_100">CgkIoMaV_sAMEAIQAQ</string>
+  <string name="achievement_200">CgkIoMaV_sAMEAIQAg</string>
+  <string name="achievement_500">CgkIoMaV_sAMEAIQAw</string>
+  <string name="achievement_1000">CgkIoMaV_sAMEAIQBA</string>
+  <string name="achievement_1500">CgkIoMaV_sAMEAIQBQ</string>
+  <string name="leaderboard_testing">CgkIoMaV_sAMEAIQBg</string>
+</resources>

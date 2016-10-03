@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="13" tilewidth="32" tileheight="32" nextobjectid="258">
+ <tileset firstgid="1" name="ninja_blocks_32x32" tilewidth="32" tileheight="32" tilecount="18">
+  <image source="../ninja_blocks_32x32.jpg" width="96" height="192"/>
+ </tileset>
+ <layer name="Graphic Layer" width="100" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1tsKgCAMBuBddLSL3v9tW5AkSdJmiof/gzHwQmIHjAgAclo5pivH2n+4A3yoa3tS9NTd5WfuQWl7MnMMLxl8KfpX2kxAv1r51+r9ndFYOEbBuUSN78yXmZHOlmQnDMdGd/1ttucg4/ZK46y5CeQauHOkzaV8Z6gXufYjtpYHytIDxA==
+  </data>
+ </layer>
+ <objectgroup name="Ground">
+  <object id="201" x="0" y="384" width="544" height="32"/>
+  <object id="203" x="672" y="64" width="96" height="32"/>
+  <object id="204" x="832" y="96" width="32" height="32"/>
+  <object id="205" x="896" y="160" width="32" height="32"/>
+  <object id="206" x="768" y="256" width="96" height="32"/>
+  <object id="208" x="608" y="320" width="96" height="32"/>
+  <object id="217" x="1120" y="352" width="96" height="32"/>
+  <object id="218" x="1344" y="384" width="288" height="32"/>
+  <object id="233" x="896" y="320" width="128" height="32"/>
+  <object id="237" x="1632" y="320" width="256" height="96"/>
+  <object id="238" x="1632" y="288" width="64" height="32"/>
+  <object id="239" x="1824" y="288" width="64" height="32"/>
+  <object id="242" x="2688" y="384" width="512" height="32"/>
+  <object id="243" x="2368" y="256" width="224" height="64"/>
+  <object id="244" x="2048" y="128" width="224" height="64"/>
+ </objectgroup>
+ <objectgroup name="Coins">
+  <object id="211" x="688" y="32" width="16" height="16"/>
+  <object id="212" x="720" y="32" width="16" height="16"/>
+  <object id="213" x="752" y="32" width="16" height="16"/>
+  <object id="214" x="816" y="192" width="16" height="16"/>
+  <object id="231" x="1296" y="32" width="16" height="16"/>
+  <object id="232" x="1392" y="96" width="16" height="16"/>
+  <object id="248" x="2096" y="32" width="16" height="16"/>
+  <object id="249" x="2160" y="32" width="16" height="16"/>
+  <object id="250" x="2224" y="32" width="16" height="16"/>
+  <object id="251" x="2416" y="160" width="16" height="16"/>
+  <object id="252" x="2480" y="160" width="16" height="16"/>
+  <object id="253" x="2544" y="160" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="Boxes">
+  <object id="225" x="1280" y="64" width="32" height="32"/>
+  <object id="226" x="1376" y="128" width="32" height="32"/>
+  <object id="227" x="1280" y="192" width="32" height="32"/>
+  <object id="228" x="1376" y="256" width="32" height="32"/>
+  <object id="229" x="1280" y="320" width="32" height="32"/>
+  <object id="245" x="1952" y="192" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Robots">
+  <object id="210" x="512" y="352" width="32" height="32"/>
+  <object id="230" x="1760" y="288" width="32" height="32"/>
+  <object id="246" x="2240" y="96" width="32" height="32"/>
+  <object id="247" x="2560" y="224" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="InvisibleWalls">
+  <object id="199" x="3200" y="0" height="416"/>
+  <object id="209" x="544" y="320" height="64"/>
+  <object id="216" x="0" y="0" height="416"/>
+  <object id="240" x="1696" y="288" height="128"/>
+  <object id="241" x="1824" y="288" height="128"/>
+  <object id="254" x="2048" y="64" height="64"/>
+  <object id="255" x="2272" y="64" height="64"/>
+  <object id="256" x="2368" y="192" height="64"/>
+  <object id="257" x="2592" y="192" height="64"/>
+ </objectgroup>
+</map>

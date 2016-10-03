@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="16" tileheight="16" nextobjectid="24">
+ <tileset firstgid="1" name="ninja_blocks_16x16" tilewidth="16" tileheight="16">
+  <image source="../../../android/assets/ninja_blocks_16x16.png" width="48" height="80"/>
+ </tileset>
+ <layer name="Graphic Layer" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEKACAMBEEtrP3/b+2DZYREZuDaQIodAwAAAAAAAACADnYY0ENsV79Q361b/UIdK3EZ9+bDX+E3B1BUAaE=
+  </data>
+ </layer>
+ <objectgroup name="Ground">
+  <object id="1" x="0" y="192" width="304" height="16"/>
+  <object id="2" x="320" y="192" width="256" height="16"/>
+  <object id="4" x="112" y="176" width="112" height="16"/>
+  <object id="5" x="144" y="160" width="80" height="16"/>
+  <object id="6" x="160" y="144" width="64" height="16"/>
+ </objectgroup>
+ <objectgroup name="Coins">
+  <object id="20" x="112.754" y="161.078" width="14.4604" height="12.813"/>
+  <object id="22" x="128.405" y="161.444" width="14.4604" height="12.813"/>
+  <object id="23" x="145.245" y="145.702" width="14.4604" height="12.813"/>
+ </objectgroup>
+</map>
